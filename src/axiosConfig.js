@@ -2,9 +2,6 @@ import axios from 'axios';
 
 const axiosInstance = axios.create({
     baseURL: 'http://35.154.22.94:8080/mybooksapp-0.0.1-SNAPSHOT/'
-//    for localhost
-//    baseURL: 'http://localhost:8080/'
-
 });
 
 
