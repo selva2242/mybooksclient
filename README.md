@@ -2,6 +2,18 @@
 
 Live APP : https://mybooksclient.vercel.app/
 
+If used live url for backend, Sample User ID for login: 
+
+Expert - 1,
+Customer - 2
+
+If used localhost for backed, 
+
+1. Singup from signup page. 
+2. Open http://localhost:8080/h2-console
+3. Open user table 
+4. Pick userId from the respective user entry and login.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
