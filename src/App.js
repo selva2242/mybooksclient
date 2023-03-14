@@ -2,6 +2,8 @@ import './App.css';
 import React, { useState } from 'react';
 
 import { BrowserRouter as Router,Routes, Route,  } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
+
 
 import Login from './components/Login';
 import Signup from './components/Signup';
@@ -16,6 +18,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+
 
 
 function App() {
@@ -85,6 +88,8 @@ function App() {
             </Routes>
             {/* </div> */}
         </Router>    
+        <Analytics />
+
       </userContext.Provider>
   );
 }
